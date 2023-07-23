@@ -1,0 +1,111 @@
+*,
+*::after,
+*::before{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-background: #54DBA4;
+    --color-text: #26292B;
+    --color-number: #fff;
+}
+
+
+.statsPage{
+    display: flex;
+    justify-content: center;
+    height: 650px;
+    background-color: var(--color-background);
+    
+}
+
+.container_statsPage{
+    display: flex;
+    
+}
+
+.container_statsItems_titleFirstItem{
+    display: flex;
+    gap: 30px;
+
+}
+
+.img_statsPage{
+    width: fit-content;
+    height: 100%;
+}
+
+.img_statsPage img{
+    height: 100%;
+}
+
+.container_stats{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    justify-content:space-between;
+}
+
+
+.statsItem{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 23px;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.firstImg_stats,
+.secondImg_stats{
+    width: 50px;
+    display: flex;
+    margin: 10px;
+}
+
+.firstImg_stats{
+    align-self: flex-end;
+}
+
+.icon_statsItem{
+    width: 120px;
+}
+
+.title_firstItemStats svg {
+    height: fit-content;
+    width: 30px;
+    margin-top: 10px;
+}
+
+.title_firstItemStats svg text{
+    transform: rotate(-90deg);
+    font-size: 25px;
+    
+}
+
+.texts_statsItem,
+.textNumber_statsItem{
+    direction: rtl;
+    color: var(--color-text);
+}
+
+.numbers_statsItem:first-child{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.numbers_statsItem{
+    color: var(--color-number);
+}
+
+.textsNumbers_firstStatsItem{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    gap: 30px;
+}
+.container_statsItems{
+    width: 70%;
+}

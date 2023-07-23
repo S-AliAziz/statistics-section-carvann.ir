@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'IranSans';
+    font-weight: 200;
+    src: url(./fonts/IRANSansXFaNum-Light.ttf);
+}
+
+@font-face {
+    font-family: 'IranSans';
+    font-weight: 400;
+    src: url(./fonts/IRANSansXFaNum-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'IranSans';
+    font-weight: 500;
+    src: url(./fonts/IRANSansXFaNum-DemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'IranSans';
+    font-weight: 700;
+    src: url(./fonts/IRANSansXFaNum-Bold.ttf);
+}
+
+body{
+    font-family: IranSans;
+    font-size: 16px;
+    font-weight: 400;
+}
